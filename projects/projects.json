@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Nature Protect (Spanyol)",
+    "desc": "'natureprotects.org'. It includes Google Analytics for tracking and analyzing website traffic, React as a JavaScript library for building user interfaces, Next.js for server-side rendering and static site generation, Google Font API for typography, Google Tag Manager for managing website tags, Node.js as the server-side programming language, Webpack for module bundling, and Nginx used as a web server and a reverse proxy. This combination of technologies suggests a modern, efficient web development setup with a focus on performance and scalability.",
+    "image": "nature",
+    "category": "website",
+    "links": {
+      "view": "https://www.natureprotects.org",
+      "code": "#"
+    }
+  }
+]
