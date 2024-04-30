@@ -59,7 +59,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Jigar Sable";
+            document.title = "Portfolio | Nur Insan Akbar";
             $("#favicon").attr("href", "assets/images/favicon.ico");
         }
         else {
@@ -107,9 +107,9 @@ function showSkills(skills) {
 function showProjects(projects) {
     let projectsContainer = document.querySelector("#work .box-container");
     let projectHTML = "";
-    projects.slice(0, 10).forEach(project => {
+    projects.filter(p=>p.category=="website").forEach(project => {
         projectHTML += `
-        <div class="box tilt">
+        <div class="box tilt" data-view-link="${project.links.view}">
       <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
       <div class="content">
         <div class="tag">
@@ -126,6 +126,12 @@ function showProjects(projects) {
     </div>`
     });
     projectsContainer.innerHTML = projectHTML;
+    // Add click event listener to each project box to navigate to the view link
+    document.querySelectorAll(".box.tilt").forEach(box => {
+        box.addEventListener("click", function() {
+            window.open(this.getAttribute("data-view-link"), "_blank");
+        });
+    });
 
     // <!-- tilt js effect starts -->
     VanillaTilt.init(document.querySelectorAll(".tilt"), {

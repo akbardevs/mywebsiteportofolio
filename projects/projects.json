@@ -1,4 +1,65 @@
+
 [
+  {
+    "name": "BantaengApps ",
+    "desc": "Discover Bantaeng like never before with Bantaeng Baik, the all-in-one app crafted with Flutter for a seamless user experience and Node.js/Express for a robust backend. This intuitive app provides quick access to essential services, from health and population data to transport and tourism in South Sulawesi, Indonesia",
+    "image": "bantaengapps",
+    "category": "android",
+    "links": {
+      "view": "https://play.google.com/store/apps/details?id=com.bantaeng.baik",
+      "code": "#"
+    }
+  },
+  {
+    "name": "DIBCARD",
+    "desc": "DIBCARD revolutionizes networking with its digital business card platform, offering a seamless way to create and exchange professional contacts. Ideal for entrepreneurs and professionals, our app provides an eco-friendly and modern solution for managing and sharing business information",
+    "image": "dibcard",
+    "category": "android",
+    "links": {
+      "view": "https://play.google.com/store/apps/details?id=com.ibm.dibmobile",
+      "code": "#"
+    }
+  },
+  {
+    "name": "CSIRT ",
+    "desc": "The website depicted in the image appears to be an informational portal focused on cybersecurity awareness, particularly against phishing threats. Built with a blend of cutting-edge technologies, the site uses Vue.js for reactive and component-driven user interfaces, ensuring an engaging and interactive experience. Next.js provides the framework for server-side rendering, enabling fast page loads and enhanced SEO capabilities, which is crucial for public-facing educational content. Docker containers encapsulate the application, ensuring consistency across development, testing, and production environments. Lastly, PostgreSQL serves as the backend database, offering robust data management and integrity for storing and querying content reliably. This tech combination delivers a secure, scalable, and maintainable platform for educating users about online safety.",
+    "image": "csirt",
+    "category": "website",
+    "links": {
+      "view": "https://csirt.banksulselbar.co.id",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Project Controlling",
+    "desc": "Project Controlling Platform for the Oil & Gas industry. Built with the robust and efficient technologies of RabbitMQ, Redis, Go, and Vue.js, our platform offers streamlined project monitoring, vendor management, and detailed reporting. Experience a user-friendly interface designed for optimal performance and easy navigation to keep your projects on track. Dive into a seamless project controlling experience that's as dynamic as your industry needs.",
+    "image": "skkmigas",
+    "category": "website",
+    "links": {
+      "view": "https://skkmdev.aistech.id",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Portal Satu Data Makassar ",
+    "desc": "The 'Satu Data Makassar' portal is designed to be a centralized data hub, created with the Laravel framework to ensure a reliable and secure backend, while Vue.js is utilized for crafting a user-friendly and interactive frontend. This combination enables efficient data management and a seamless user experience for accessing various data categories like education, social issues, environment, infrastructure, and health. The portal aims to provide comprehensive and easily navigable data resources for public and administrative use in Makassar.",
+    "image": "satudata",
+    "category": "website",
+    "links": {
+      "view": "https://data.makassarkota.go.id",
+      "code": "#"
+    }
+  },
+  {
+    "name": "SIMPEG",
+    "desc": "Streamline your HR processes with RSUD Barru SIMPEG, a modern employee management system. Developed with Golang, Vue, SSO, and Redis for fast, secure, and user-friendly experience.",
+    "image": "simpeg",
+    "category": "website",
+    "links": {
+      "view": "https://simpegdev.aistech.id/#/login",
+      "code": "#"
+    }
+  },
   {
     "name": "Nature Protect (Spanyol)",
     "desc": "'natureprotects.org'. It includes Google Analytics for tracking and analyzing website traffic, React as a JavaScript library for building user interfaces, Next.js for server-side rendering and static site generation, Google Font API for typography, Google Tag Manager for managing website tags, Node.js as the server-side programming language, Webpack for module bundling, and Nginx used as a web server and a reverse proxy. This combination of technologies suggests a modern, efficient web development setup with a focus on performance and scalability.",
@@ -6,6 +67,46 @@
     "category": "website",
     "links": {
       "view": "https://www.natureprotects.org",
+      "code": "#"
+    }
+  },
+  {
+    "name": "LeanOn",
+    "desc": "The 'Leaving No One Behind (LeaN On)' website was developed using Laravel for efficient data and backend management, Svelte for a fast and responsive user interface, and Elasticsearch for quick and precise search capabilities. Its goal is to provide easily accessible information on COVID-19 prevention and support for individuals with disabilities and marginalized communities.",
+    "image": "leanon",
+    "category": "website",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "AloKlinik",
+    "desc": "Aloklinik offers a seamless online healthcare experience. Powered by Laravel, it provides secure, user-friendly access to medical consultations, appointment management, and health tracking. Simplify your health journey with Aloklinik’s intuitive online services.",
+    "image": "aloklinik",
+    "category": "website",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Abata (PPOB)",
+    "desc": "The 'Abata' development project, a Payment Point Online Bank platform, leverages Node.js and Express for efficient backend processing, AdonisJS for its MVC framework to streamline development, and React for a responsive frontend. Additionally, RabbitMQ is integrated for robust message queuing, enhancing the platform's reliability and scalability in handling transactions. This tech stack ensures a secure, user-friendly, and efficient online banking experience.",
+    "image": "abata",
+    "category": "website",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "E-Cosys",
+    "desc": "The digital road permit system displayed appears to be a user-friendly dashboard for managing various types of permits and dispensations. Developed using Laravel, a PHP framework known for its elegant syntax and robust features for tasks like authentication and routing, it provides a solid backend structure. Vue.js is employed on the frontend for its reactive components, offering an interactive and dynamic user experience that allows real-time data updates without page reloads. This makes it particularly suitable for dashboards that require displaying up-to-date information. Nginx serves as the web server, chosen for its high performance, stability, and efficient handling of static assets, ensuring the system is responsive and reliable. Together, these technologies provide a seamless, integrated platform for processing and monitoring road permits digitally.",
+    "image": "ecosys",
+    "category": "website",
+    "links": {
+      "view": "#",
       "code": "#"
     }
   }
